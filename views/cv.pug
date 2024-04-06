@@ -1,0 +1,30 @@
+doctype html 
+html(lang="en")
+  head
+    title= 'View your CV'
+    script(type='text/javascript', src='https://cdn.tailwindcss.com')
+  body
+    section(class="text-gray-600 body-font")
+      div(class="container px-5 py-24 mx-auto flex flex-wrap")
+        div(class="flex flex-wrap w-full")
+          div(class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6")
+            div(class="flex relative pb-12")
+              div(class="flex-grow pl-4")
+                h2(class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider") Name
+                p(class="leading-relaxed")= name
+            div(class="flex relative pb-12")
+              div(class="flex-grow pl-4")
+                h2(class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider") Email
+                p(class="leading-relaxed")= email
+            div(class="flex relative pb-12")
+              div(class="flex-grow pl-4")
+                h2(class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider") Contact
+                p(class="leading-relaxed")= contact
+            div(class="flex relative pb-12")
+              div(class="flex-grow pl-4")
+                h2(class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider") Education
+                p(class="leading-relaxed")= education
+            div(class="flex relative")
+              div(class="flex-grow pl-4")
+                h2(class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider") Address
+                p(class="leading-relaxed")= address
